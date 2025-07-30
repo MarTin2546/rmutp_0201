@@ -1,7 +1,7 @@
 services: 
   db: 
     image: postgres:latest
-    container_name: my_db_anupong
+    container_name: my_db_thanapoom
     ports: 
      - "65432:5432"
     volumes:
@@ -12,7 +12,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
   app:
       image: prawee/strapi
-      container_name: my_app_anupong
+      container_name: my_app_thanapoom
       ports:      
       - "8080:1337"
       environment:

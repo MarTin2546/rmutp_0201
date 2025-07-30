@@ -2,7 +2,7 @@
 @username={{$dotenv USERNAME}}
 @password={{$dotenv PASSWORD}}
 @email={{$dotenv EMAIL}}
-@userId=1  #
+@userId=40 #
 
 ### Getting all users
 GET http://localhost:8080/api/users
@@ -23,8 +23,8 @@ PUT http://localhost:8080/api/users/{{userId}}
 Content-Type: application/json
 
     {
-    "username": "qwer124",
-    "email": "tttnqtin11@gmail.com"
+    "username": "ttnqtinn12565",
+    "email": "ttnqtinn151@gmail.com"
     }
 
 ### Delete user by ID

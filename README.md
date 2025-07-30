@@ -1,3 +1,3 @@
 # Cyber Security 
 
-Anupong Janjaroen(AJ)
+Thanapoom Chusorn (Tin)
